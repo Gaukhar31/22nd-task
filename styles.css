@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #2f3e55;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.header {
+    background-color: #2f3e55;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(The-Tallest-Mountains-in-the-World.jpg);
+}
+
+.button {
+    display: grid;
+    grid-column-end: 8;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.user-details h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.stats span {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions button {
+    padding: 5px 10px;
+    background-color: #557a95;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.gallery-section {
+    padding: 20px;
+}
+
+.gallery-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.gallery-item img {
+    width: 100%;
+}
